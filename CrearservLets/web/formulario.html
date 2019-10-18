@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   <body>  
+<form class="formulario" action="obteners" method="post">
+      <h1 class="title">GTProMaker</h1>
+  <div class="correo">
+<label for="correo">Correo</label>
+  <input  id="usuario" type="text" name="usuario" value="" placeholder="Correo electronico">
+  </div>
+  <div class="contrase">
+  <label  for="contrasena">Contraseña</label>
+  <input id="contrasena" type="text" name="contrasena" value="" placeholder="Contraseña">
+  </div>
+  <div class="ingresar">
+      <input type="submit" name="button" id="button" value="Iniciar Sesión" onClick="prueba">
+  </div>
+
+</form>
+
+<form class="formulario--1" action="index.html" method="post">
+  <div class="text--1">
+    <h1>Abre una cuenta</h1>
+    <h2>Es rápido y fácil.</h2>
+  </div>
+  <div class="nombre">
+  <input class="t1" type="text" name="nombre" value="" placeholder="Nombre">
+  </div>
+  <div class="apellido">
+  <input class="t2" type="text" name="apellido" value="" placeholder="Apellido">
+  </div>
+  <div class="correo--1">
+  <input class="t3" type="text" name="nombre" value="" placeholder="Número de celular o correo electronico">
+  </div>
+  <div class="contraseña--1">
+  <input class="t3" type="text" name="nombre" value="" placeholder="Contraseña nueva">
+  </div>
+  <div class="date">
+    <label class="t4" for="">Fecha de nacimiento</label>
+    <input class="t4" type="date">
+  </div>
+  <label class="sexo--1" for="">Sexo</label>
+  <div class="sexo">
+    <label for=""><input type="radio" name="gender">Hombre</label>
+    <label for=""><input type="radio" name="gender">Mujer</label>
+    <label for=""><input type="radio" name="gender">Personalizado</label>
+  </div>
+  <div>
+    <h3 class="text">
+      Al hacer clic en "Registrarte", aceptas nuestras Condiciones, la Política de datos y la Política de cookies. Es posible que te enviemos notificaciones por SMS, que puedes desactivar cuando quieras.
+    </h3>
+  </div>
+  <div class="registrar--1">
+      <input class="registrar" type="submit" name="button" id="button" value="Registrarte" onClick="prueba">
+  </div>
+</form>
+    <style>
+  *{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+
+}
+body{
+    background: #f1f2f6;
+}
+.formulario{
+  background :#3867d6;
+}
+.correo{
+  width: 10%;
+font-weight: bold;
+color: white;
+position: relative;
+left: 800px;
+bottom: 10px;
+}
+.contrase{
+
+  width: 10%;
+font-weight: bold;
+color: white;
+position: absolute;
+left: 1000px;
+bottom: 588px;
+}
+.ingresar
+{
+  position: relative;
+  left: 1200px;
+  bottom: 35px;
+  width: 6%;
+}
+.title {
+  position: relative;
+  left: 200px;
+  top: 25px;
+
+width: 12%;
+color: white;
+}
+.formulario--1{
+
+  /*border: 1px solid black;*/
+  width: 40%;
+  height: 500px;;
+  position: absolute;
+  left: 800px;
+
+}
+.nombre {
+  width: 10%;
+}
+.t1 {
+  position: relative;
+  left: 50px;
+  font-size: 1em;
+  width: 200px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.t2 {
+  position: absolute;
+  left: 260px;
+  bottom: 383px;
+  font-size: 1em;
+  width: 200px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.t3 {
+  font-size: 1em;
+  width: 410px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 50px;
+
+}
+.t4{
+position: relative;
+left: 50px;
+  font-size: 1em;
+  width: 30%;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.sexo {
+  position: relative;
+  left: 50px;
+    font-size: 1em;
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sexo--1 {
+  position: relative;
+  left: 50px;
+    font-size: 1em;
+    width: 60%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.text {
+  position: relative;
+  left: 50px;
+    font-size: 0.7em;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.registrar {
+  position: relative;
+  left: 50px;
+    font-size: 1em;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.text--1 {
+  position: relative;
+  left: 50px;
+}
+</style>
+  </body>
+</html>
